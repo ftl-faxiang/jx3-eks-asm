@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - ftl-faxiang/jx3-eks-asm
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.18.196.220.139.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
