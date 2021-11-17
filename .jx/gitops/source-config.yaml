@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: golang-test2
     - name: test1
     scheduler: in-repo
   slack:
