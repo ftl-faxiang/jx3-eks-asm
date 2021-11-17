@@ -34,7 +34,7 @@ spec:
   pipelineUser:
     username: StevensGitHub
   repository: nexus
-  secretStorage: secretsManager
+  secretStorage: vault
   storage:
   - name: logs
     url: s3://logs-jx3-terraform-eks-20211117015134686900000004
