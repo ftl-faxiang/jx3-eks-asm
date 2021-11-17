@@ -33,7 +33,7 @@ spec:
     pipelineUserEmail: "jenkins-x@googlegroups.com"
     prowConfig: Scheduler
     storageLocations:
-      - bucketUrl: s3://logs-jx3-terraform-eks-2021111503415281160000000a
+      - bucketUrl: s3://logs-jx3-terraform-eks-20211117015134686900000004
         classifier: logs
-      - bucketUrl: s3://reports-jx3-terraform-eks-20211115034151746700000002
+      - bucketUrl: s3://reports-jx3-terraform-eks-20211117015134700200000007
         classifier: reports

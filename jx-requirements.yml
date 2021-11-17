@@ -37,19 +37,19 @@ spec:
   secretStorage: vault
   storage:
   - name: logs
-    url: s3://logs-jx3-terraform-eks-2021111503415281160000000a
+    url: s3://logs-jx3-terraform-eks-20211117015134686900000004
   - name: reports
-    url: s3://reports-jx3-terraform-eks-20211115034151746700000002
+    url: s3://reports-jx3-terraform-eks-20211117015134700200000007
   - name: repository
-    url: s3://repository-jx3-terraform-eks-20211115034151752600000005
+    url: s3://repository-jx3-terraform-eks-20211117015134702600000008
   terraform: true
   vault:
     aws:
       dynamoDBRegion: eu-central-1
-      dynamoDBTable: vault-unseal-jx3-terraform-eks-GRk1DJtU
+      dynamoDBTable: vault-unseal-jx3-terraform-eks-7FYlXCDY
       iamUserName: chenzuoming
-      kmsKeyId: c86d4f0b-9d5b-415d-9447-44906e5a329c
+      kmsKeyId: 97429887-1457-4d43-b48b-4b27341af2d4
       kmsRegion: eu-central-1
-      s3Bucket: vault-unseal-jx3-terraform-eks-20211115034151743200000001
+      s3Bucket: vault-unseal-jx3-terraform-eks-20211117015134681700000003
       s3Region: eu-central-1
   webhook: lighthouse
