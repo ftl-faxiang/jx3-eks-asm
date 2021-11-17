@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         ftl-faxiang/jx3-eks-asm: true
+        ftl-faxiang/test1: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         ftl-faxiang/jx3-eks-asm: merge
+        ftl-faxiang/test1: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - ftl-faxiang/jx3-eks-asm
+        - ftl-faxiang/test1
       - labels:
         - updatebot
         missingLabels:
@@ -41,7 +44,8 @@ data:
         - needs-rebase
         repos:
         - ftl-faxiang/jx3-eks-asm
-      target_url: http://lighthouse-jx.18.196.220.139.nip.io/merge/status
+        - ftl-faxiang/test1
+      target_url: http://lighthouse-jx.skygo.fr/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

@@ -39,7 +39,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: 18.196.220.139.nip.io
+    domain: skygo.fr
     kind: ingress
     namespaceSubDomain: -kuberhealthy.
     tls:
