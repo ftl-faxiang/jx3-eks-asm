@@ -11,6 +11,7 @@ spec:
     - name: golang-test2
     - name: test1
     - name: test2
+    - name: test3
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
