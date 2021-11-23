@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ftl-faxiang
+    provider: github
+    repository: golang-test2
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: ftl-faxiang-golang-test2
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/ftl-faxiang/golang-test2.git
+  org: ftl-faxiang
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-test2
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/ftl-faxiang/golang-test2

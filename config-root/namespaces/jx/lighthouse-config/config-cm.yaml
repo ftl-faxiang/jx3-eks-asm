@@ -7,8 +7,10 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        ftl-faxiang/golang-test2: true
         ftl-faxiang/jx3-eks-asm: true
         ftl-faxiang/test1: true
+        ftl-faxiang/test2: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,8 +22,10 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        ftl-faxiang/golang-test2: merge
         ftl-faxiang/jx3-eks-asm: merge
         ftl-faxiang/test1: merge
+        ftl-faxiang/test2: merge
       queries:
       - labels:
         - approved
@@ -33,7 +37,9 @@ data:
         - needs-rebase
         repos:
         - ftl-faxiang/jx3-eks-asm
+        - ftl-faxiang/golang-test2
         - ftl-faxiang/test1
+        - ftl-faxiang/test2
       - labels:
         - updatebot
         missingLabels:
@@ -44,7 +50,9 @@ data:
         - needs-rebase
         repos:
         - ftl-faxiang/jx3-eks-asm
+        - ftl-faxiang/golang-test2
         - ftl-faxiang/test1
+        - ftl-faxiang/test2
       target_url: http://lighthouse-jx.skygo.fr/merge/status
 kind: ConfigMap
 metadata:
