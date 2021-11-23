@@ -20,7 +20,7 @@ spec:
   environments:
   - key: dev
     owner: ftl-faxiang
-    repository: jx3-eks-asm
+    repository: devops/jx3-eks-asm
   - key: staging
   - key: production
   ingress:
