@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ftl-faxiang
+    provider: github
+    repository: test11
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: ftl-faxiang-test11
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/ftl-faxiang/test11.git
+  org: ftl-faxiang
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test11
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/ftl-faxiang/test11
