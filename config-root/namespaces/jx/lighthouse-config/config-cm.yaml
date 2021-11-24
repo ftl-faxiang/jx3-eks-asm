@@ -53,7 +53,7 @@ data:
         - ftl-faxiang/golang-test2
         - ftl-faxiang/test1
         - ftl-faxiang/test2
-      target_url: http://lighthouse-jx.skygo.fr/merge/status
+      target_url: http://lighthouse-jx.skygo.f/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
