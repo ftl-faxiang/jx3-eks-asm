@@ -39,7 +39,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: skygo.f
+    domain: skygo.fr
     kind: ingress
     namespaceSubDomain: -kuberhealthy.
     tls:

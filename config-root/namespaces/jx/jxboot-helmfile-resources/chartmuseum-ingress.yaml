@@ -19,4 +19,4 @@ spec:
                 name: jenkins-x-chartmuseum
                 port:
                   number: 8080
-      host: chartmuseum-jx.skygo.f
+      host: chartmuseum-jx.skygo.fr

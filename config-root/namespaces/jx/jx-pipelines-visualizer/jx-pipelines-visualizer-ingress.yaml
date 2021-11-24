@@ -19,7 +19,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: dashboard-jx.skygo.f
+    - host: dashboard-jx.skygo.fr
       http:
         paths:
           - pathType: ImplementationSpecific
