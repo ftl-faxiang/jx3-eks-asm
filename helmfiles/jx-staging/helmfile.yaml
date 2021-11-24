@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://chartmuseum-jx.skygo.fr
+releases:
+- chart: dev/test11
+  version: 0.0.1
+  name: test11
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}
