@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - ftl-faxiang/test11
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - ftl-faxiang/test2
       require_self_approval: true
     cat: {}
@@ -44,6 +48,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       ftl-faxiang/test2:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      ftl-faxiang/test11:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -118,6 +127,22 @@ data:
       - cat
       - dog
       - pony
+      ftl-faxiang/test11:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -135,6 +160,9 @@ data:
       trusted_org: todo
     - repos:
       - ftl-faxiang/test1
+      trusted_org: todo
+    - repos:
+      - ftl-faxiang/test11
       trusted_org: todo
     - repos:
       - ftl-faxiang/test2
